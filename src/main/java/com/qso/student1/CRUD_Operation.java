@@ -12,7 +12,7 @@ public class CRUD_Operation {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-
+ 
 		String url = "jdbc:postgresql://localhost:5432/student1";
 		String user = "postgres";
 		String password = "root";
@@ -85,7 +85,7 @@ public class CRUD_Operation {
 					System.out.println("Closing connection...");
 					connection.close();
 					scn.close();
-					System.out.println("Exited Successfully!");
+					System.out.println("Exited Successfully Done!");
 					return; // ✔ exit the main method safely
 
 				default:
