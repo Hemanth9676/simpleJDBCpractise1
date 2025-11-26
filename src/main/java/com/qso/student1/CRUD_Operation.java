@@ -82,7 +82,7 @@ public class CRUD_Operation {
 
 					break;
 				case 5:
-					System.out.println("Closing connection Done...");
+					System.out.println("Closing connection...");
 					connection.close();
 					scn.close();
 					System.out.println("Exited Successfully Done😊😊!");
