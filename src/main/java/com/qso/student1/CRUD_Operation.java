@@ -85,7 +85,7 @@ public class CRUD_Operation {
 					System.out.println("Closing connection...");
 					connection.close();
 					scn.close();
-					System.out.println("Exited Successfully Done!");
+					System.out.println("Exited Successfully Done😊😊!");
 					return; // ✔ exit the main method safely
 
 				default:
